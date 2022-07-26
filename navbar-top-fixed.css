@@ -1,0 +1,20 @@
+/* Show it is fixed to the top */
+
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+
+.navbar {
+    padding-bottom: 16px !important;
+    border-bottom: double 8px rgb(62, 76, 87);
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    border: 5px solid whitesmoke;
+    padding: 5px;
+    font-size: 25px;
+    letter-spacing: 4px;
+    border-radius: 10px;
+}

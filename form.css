@@ -1,0 +1,365 @@
+    .admission_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        width: 90%;
+        overflow: hidden;
+    }
+    /*______________________________________________________________________*/
+    
+    .first_div {
+        flex-direction: row;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    
+    label {
+        font-weight: bold;
+        font-size: 15px !important;
+        color: rgba(10, 42, 83, 0.692);
+        letter-spacing: 2px;
+    }
+    
+    .first_div>div {
+        margin-top: 20px;
+    }
+    
+    #s_m_name,
+    #s_f_name,
+    #s_l_name {
+        width: 250px;
+        margin-top: 4px;
+        margin-right: 2px;
+        border: 2px solid rgb(16, 61, 128);
+        padding: 5px;
+        border-radius: 4px;
+        color: black;
+        font-size: 13px;
+        text-transform: capitalize;
+        background-color: rgba(128, 128, 128, 0.11);
+    }
+    /*______________________________________________________________________*/
+    
+    .second_div {
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    
+    .second_div>div {
+        margin-top: 20px;
+    }
+    
+    #s_gender,
+    #s_age,
+    #s_address {
+        min-width: 250px;
+        margin-top: 2px;
+        margin-right: 4px;
+        border: 2px solid rgb(16, 61, 128);
+        padding: 5px;
+        border-radius: 4px;
+        color: black;
+        font-size: 13px;
+        text-transform: capitalize;
+        background-color: rgba(128, 128, 128, 0.11);
+    }
+    /*___________________________________________________________________________________*/
+    
+    .third_div {
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    
+    .third_div>div {
+        margin-top: 20px;
+    }
+    
+    #s_last_school_address,
+    #s_last_school {
+        width: 350px;
+        margin-top: 4px;
+        margin-right: 2px;
+        border: 2px solid rgb(16, 61, 128);
+        padding: 5px;
+        border-radius: 4px;
+        color: black;
+        font-size: 13px;
+        text-transform: capitalize;
+        background-color: rgba(128, 128, 128, 0.11);
+    }
+    
+    @media (max-width: 440px) {
+        #s_last_school_address,
+        #s_last_school {
+            width: 250px;
+        }
+    }
+    /*______________________________________________________________*/
+    
+    .fourth_div {
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        align-items: center;
+    }
+    
+    .fourth_div>div {
+        margin-top: 10px;
+    }
+    
+    #s_last_class {
+        width: 200px;
+        margin-top: 4px;
+        margin-right: 2px;
+        border: 2px solid rgb(16, 61, 128);
+        padding: 5px;
+        border-radius: 4px;
+        color: black;
+        font-size: 13px;
+        text-transform: capitalize;
+        background-color: rgba(128, 128, 128, 0.11);
+    }
+    
+    @media (max-width: 700px) {
+        .fourth_div {
+            flex-wrap: wrap;
+            flex-direction: column;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            align-items: center;
+        }
+    }
+    /*______________________________________________________________________________*/
+    
+    .fifth_div {
+        flex-direction: row;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    
+    label {
+        font-weight: bold;
+        font-size: 15px !important;
+        color: rgba(10, 42, 83, 0.692);
+        letter-spacing: 2px;
+    }
+    
+    .fifth_div>div {
+        margin-top: 20px;
+    }
+    
+    #s_father_first_name,
+    #s_father_middle_name,
+    #s_father_last_name {
+        width: 250px;
+        margin-top: 4px;
+        margin-right: 2px;
+        border: 2px solid rgb(16, 61, 128);
+        padding: 5px;
+        border-radius: 4px;
+        color: black;
+        font-size: 13px;
+        text-transform: capitalize;
+        background-color: rgba(128, 128, 128, 0.11);
+    }
+    /*___________________________________________________________________________________*/
+    
+    .sixth_div {
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    
+    .sixth_div>div {
+        margin-top: 20px;
+    }
+    
+    #s_father_address,
+    #s_father_contact {
+        width: 350px;
+        margin-top: 4px;
+        margin-right: 2px;
+        border: 2px solid rgb(16, 61, 128);
+        padding: 5px;
+        border-radius: 4px;
+        color: black;
+        font-size: 13px;
+        text-transform: capitalize;
+        background-color: rgba(128, 128, 128, 0.11);
+    }
+    
+    @media (max-width: 440px) {
+        #s_father_address,
+        #s_father_contact {
+            width: 250px;
+        }
+    }
+    /*#$  /*______________________________________________________________________________*/
+    
+    .fifth_div {
+        flex-direction: row;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    
+    label {
+        font-weight: bold;
+        font-size: 15px !important;
+        color: rgba(10, 42, 83, 0.692);
+        letter-spacing: 2px;
+    }
+    
+    .fifth_div>div {
+        margin-top: 20px;
+    }
+    
+    #s_mother_first_name,
+    #s_mother_middle_name,
+    #s_mother_last_name {
+        width: 250px;
+        margin-top: 4px;
+        margin-right: 2px;
+        border: 2px solid rgb(16, 61, 128);
+        padding: 5px;
+        border-radius: 4px;
+        color: black;
+        font-size: 13px;
+        text-transform: capitalize;
+        background-color: rgba(128, 128, 128, 0.11);
+    }
+    /*___________________________________________________________________________________*/
+    
+    .sixth_div {
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    
+    .sixth_div>div {
+        margin-top: 20px;
+    }
+    
+    #s_mother_address,
+    #s_mother_contact {
+        width: 350px;
+        margin-top: 4px;
+        margin-right: 2px;
+        border: 2px solid rgb(16, 61, 128);
+        padding: 5px;
+        border-radius: 4px;
+        color: black;
+        font-size: 13px;
+        text-transform: capitalize;
+        background-color: rgba(128, 128, 128, 0.11);
+    }
+    
+    @media (max-width: 440px) {
+        #s_mother_address,
+        #s_mother_contact {
+            width: 250px;
+        }
+    }
+    /*______________________________________________________________________*/
+    
+    .seventh_div {
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    
+    .seventh_div>div {
+        margin-top: 10px;
+    }
+    
+    .seventh_div>div>p {
+        font-size: 19px;
+        font-weight: bold !important;
+    }
+    
+    #s_signature {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 17px;
+        font-weight: bold;
+        color: rgb(14, 14, 88);
+    }
+    
+    #s_signature:focus {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        outline: none;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    /*______________________________________________________________________________*/
+    
+    #submit_btn {
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 10px;
+        letter-spacing: 4px;
+        font-weight: bold;
+        background-color: rgb(10, 64, 116);
+        color: white;
+        cursor: pointer;
+        transition: ease-in-out 0.5s;
+    }
+    
+    #submit_btn:hover {
+        background-color: rgba(128, 128, 128, 0.733);
+        color: white;
+    }
+    /*______________________________________________________________________________*/
+    
+    @media (max-width: 330px) {
+        #s_last_school_address,
+        #s_last_school {
+            width: 200px;
+        }
+        #s_gender,
+        #s_age,
+        #s_address {
+            min-width: 200px;
+        }
+        #s_m_name,
+        #s_f_name,
+        #s_l_name {
+            width: 200px;
+        }
+    }

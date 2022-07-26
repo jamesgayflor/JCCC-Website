@@ -1,0 +1,20 @@
+@media (min-width: 992px) {
+    .rounded-lg-3 {
+        border-radius: .3rem;
+    }
+}
+
+.border-bottom {
+    background-color: rgb(33, 37, 41);
+    color: white;
+    box-shadow: 5px 8px 4px grey;
+}
+
+.border-bottom:hover {
+    background-color: rgb(62, 76, 87);
+}
+
+.about-container {
+    margin-top: -30px !important;
+    border-radius: 20px !important;
+}
